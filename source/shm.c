@@ -3,3 +3,10 @@
 //
 
 #include "shm.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+int shmdb_init(){
+
+    printf("shmdb_init\n");
+}

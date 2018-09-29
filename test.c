@@ -5,8 +5,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "source/shmdb.h"
+
 int main(int argc, char *argv[]){
 
-    printf("test");
+    printf("test\n");
+    shmdb_init();
     return 0;
 }
